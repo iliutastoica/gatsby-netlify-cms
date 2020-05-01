@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -1039,3 +1039,78 @@ patch:
   'npm:tunnel-agent:20170305':
     - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
         patched: '2019-09-07T18:00:39.469Z'
+  SNYK-JS-LODASH-567746:
+    - gatsby-plugin-favicon > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - gatsby-plugin-netlify > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - gatsby-plugin-netlify-cms > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - gatsby-remark-images > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - gatsby-transformer-remark > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - lodash-webpack-plugin > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - react-google-maps > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - gatsby-remark-images > cheerio > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - gatsby-plugin-favicon > favicons-webpack-plugin > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - gatsby-plugin-netlify-cms > html-webpack-plugin > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - parcel-bundler > @babel/core > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > redux > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > react-dnd > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > react-redux > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > react-sortable-hoc > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-widget-list > react-sortable-hoc > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-widget-markdown > slate > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-widget-markdown > slate-react > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - parcel-bundler > babylon-walk > babel-types > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - gatsby-plugin-favicon > favicons-webpack-plugin > favicons > cheerio > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > redux-notifications > react-redux > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - netlify-cms > netlify-cms-core > react-emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T04:40:38.571Z'
